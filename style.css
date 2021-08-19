@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.container {
+    background-color: transparent;
+    padding: 0px;
+    margin: 10px auto;
+    border: none;  
+    width: 500px;
+}
+
+.header {
+    background-color: rgb(57, 152, 168); 
+    height: 70px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+/* ID use hash '#', class use full stop '.' */
+
+.profile-image {
+    position: relative; 
+    top: 40px;
+    left: 20px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid gray;
+}
+
+.map-marker {
+    width: 10px;
+}
+
+.gear {
+    width: 10px;
+}
+
+.subheader {
+    background-color: white;
+    height: 150px;
+    border-left: 3px solid gray;
+    border-right: 3px solid gray;
+    border-bottom: 3px solid gray; 
+    padding: 30px 0px 0px 10px;
+}
+
+a {
+    color: rgb(26, 106, 172);
+}
+
